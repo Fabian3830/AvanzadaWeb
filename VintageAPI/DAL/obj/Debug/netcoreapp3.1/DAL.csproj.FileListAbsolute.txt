@@ -1,0 +1,14 @@
+C:\ProgramacionAvanzada\VintageAPI\DAL\bin\Debug\netcoreapp3.1\DAL.MODEL.dll
+C:\ProgramacionAvanzada\VintageAPI\DAL\obj\Debug\netcoreapp3.1\DAL.csprojAssemblyReference.cache
+C:\ProgramacionAvanzada\VintageAPI\DAL\obj\Debug\netcoreapp3.1\DAL.AssemblyInfoInputs.cache
+C:\ProgramacionAvanzada\VintageAPI\DAL\obj\Debug\netcoreapp3.1\DAL.AssemblyInfo.cs
+C:\ProgramacionAvanzada\VintageAPI\DAL\bin\Debug\netcoreapp3.1\DAL.deps.json
+C:\ProgramacionAvanzada\VintageAPI\DAL\bin\Debug\netcoreapp3.1\DAL.dll
+C:\ProgramacionAvanzada\VintageAPI\DAL\bin\Debug\netcoreapp3.1\DAL.pdb
+C:\ProgramacionAvanzada\VintageAPI\DAL\bin\Debug\netcoreapp3.1\DAL.MODEL.pdb
+C:\ProgramacionAvanzada\VintageAPI\DAL\obj\Debug\netcoreapp3.1\DAL.csproj.CopyComplete
+C:\ProgramacionAvanzada\VintageAPI\DAL\obj\Debug\netcoreapp3.1\DAL.dll
+C:\ProgramacionAvanzada\VintageAPI\DAL\obj\Debug\netcoreapp3.1\DAL.pdb
+C:\ProgramacionAvanzada\VintageAPI\DAL\obj\Debug\netcoreapp3.1\DAL.csproj.CoreCompileInputs.cache
+C:\ProgramacionAvanzada\VintageAPI\DAL\bin\Debug\netcoreapp3.1\DAL.REPOSITORY.dll
+C:\ProgramacionAvanzada\VintageAPI\DAL\bin\Debug\netcoreapp3.1\DAL.REPOSITORY.pdb
