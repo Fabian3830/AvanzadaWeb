@@ -6204,11 +6204,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\ProgramacionAvanzada\\VintageAPI\\DAL.MODEL\\DAL.MODEL.csproj",
+      "projectUniqueName": "C:\\AvanzadaWeb\\VintageAPI\\DAL.MODEL\\DAL.MODEL.csproj",
       "projectName": "DAL.MODEL",
-      "projectPath": "C:\\ProgramacionAvanzada\\VintageAPI\\DAL.MODEL\\DAL.MODEL.csproj",
+      "projectPath": "C:\\AvanzadaWeb\\VintageAPI\\DAL.MODEL\\DAL.MODEL.csproj",
       "packagesPath": "C:\\Users\\Fabian\\.nuget\\packages\\",
-      "outputPath": "C:\\ProgramacionAvanzada\\VintageAPI\\DAL.MODEL\\obj\\",
+      "outputPath": "C:\\AvanzadaWeb\\VintageAPI\\DAL.MODEL\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Fabian\\AppData\\Roaming\\NuGet\\NuGet.Config",

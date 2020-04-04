@@ -6223,11 +6223,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\ProgramacionAvanzada\\VintageAPI\\DAL.REPOSITORY\\DAL.REPOSITORY.csproj",
+      "projectUniqueName": "C:\\AvanzadaWeb\\VintageAPI\\DAL.REPOSITORY\\DAL.REPOSITORY.csproj",
       "projectName": "DAL.REPOSITORY",
-      "projectPath": "C:\\ProgramacionAvanzada\\VintageAPI\\DAL.REPOSITORY\\DAL.REPOSITORY.csproj",
+      "projectPath": "C:\\AvanzadaWeb\\VintageAPI\\DAL.REPOSITORY\\DAL.REPOSITORY.csproj",
       "packagesPath": "C:\\Users\\Fabian\\.nuget\\packages\\",
-      "outputPath": "C:\\ProgramacionAvanzada\\VintageAPI\\DAL.REPOSITORY\\obj\\",
+      "outputPath": "C:\\AvanzadaWeb\\VintageAPI\\DAL.REPOSITORY\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Fabian\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6243,8 +6243,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\ProgramacionAvanzada\\VintageAPI\\DAL.MODEL\\DAL.MODEL.csproj": {
-              "projectPath": "C:\\ProgramacionAvanzada\\VintageAPI\\DAL.MODEL\\DAL.MODEL.csproj"
+            "C:\\AvanzadaWeb\\VintageAPI\\DAL.MODEL\\DAL.MODEL.csproj": {
+              "projectPath": "C:\\AvanzadaWeb\\VintageAPI\\DAL.MODEL\\DAL.MODEL.csproj"
             }
           }
         }

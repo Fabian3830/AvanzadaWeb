@@ -7808,11 +7808,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\ProgramacionAvanzada\\VintageAPI\\VintageAPI\\VintageAPI.csproj",
+      "projectUniqueName": "C:\\AvanzadaWeb\\VintageAPI\\VintageAPI\\VintageAPI.csproj",
       "projectName": "VintageAPI",
-      "projectPath": "C:\\ProgramacionAvanzada\\VintageAPI\\VintageAPI\\VintageAPI.csproj",
+      "projectPath": "C:\\AvanzadaWeb\\VintageAPI\\VintageAPI\\VintageAPI.csproj",
       "packagesPath": "C:\\Users\\Fabian\\.nuget\\packages\\",
-      "outputPath": "C:\\ProgramacionAvanzada\\VintageAPI\\VintageAPI\\obj\\",
+      "outputPath": "C:\\AvanzadaWeb\\VintageAPI\\VintageAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Fabian\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -7828,11 +7828,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\ProgramacionAvanzada\\VintageAPI\\BS\\BS.csproj": {
-              "projectPath": "C:\\ProgramacionAvanzada\\VintageAPI\\BS\\BS.csproj"
+            "C:\\AvanzadaWeb\\VintageAPI\\BS\\BS.csproj": {
+              "projectPath": "C:\\AvanzadaWeb\\VintageAPI\\BS\\BS.csproj"
             },
-            "C:\\ProgramacionAvanzada\\VintageAPI\\DAL.MODEL\\DAL.MODEL.csproj": {
-              "projectPath": "C:\\ProgramacionAvanzada\\VintageAPI\\DAL.MODEL\\DAL.MODEL.csproj"
+            "C:\\AvanzadaWeb\\VintageAPI\\DAL.MODEL\\DAL.MODEL.csproj": {
+              "projectPath": "C:\\AvanzadaWeb\\VintageAPI\\DAL.MODEL\\DAL.MODEL.csproj"
             }
           }
         }

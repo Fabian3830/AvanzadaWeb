@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\ProgramacionAvanzada\\VintageAPI\\DO\\DO.csproj",
+      "projectUniqueName": "C:\\AvanzadaWeb\\VintageAPI\\DO\\DO.csproj",
       "projectName": "DO",
-      "projectPath": "C:\\ProgramacionAvanzada\\VintageAPI\\DO\\DO.csproj",
+      "projectPath": "C:\\AvanzadaWeb\\VintageAPI\\DO\\DO.csproj",
       "packagesPath": "C:\\Users\\Fabian\\.nuget\\packages\\",
-      "outputPath": "C:\\ProgramacionAvanzada\\VintageAPI\\DO\\obj\\",
+      "outputPath": "C:\\AvanzadaWeb\\VintageAPI\\DO\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Fabian\\AppData\\Roaming\\NuGet\\NuGet.Config",

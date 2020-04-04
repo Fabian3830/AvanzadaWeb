@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/qq/faEahE77iR06XfV0w3AKcrcdBRtVl9tQ6ZWbcbKbbrKpi2a0a6fe/el5RRee7ruXn5iVan1efWlkkO7ijA==",
+  "dgSpecHash": "UsoxH6cOjVzO5vq3UXAHxw5k7UKTNQwrzLRLl7u+07g4QNH+otMO0FJup+ByGuIgdcP0sKDPtxdb1gzp5YlBKQ==",
   "success": true,
-  "projectFilePath": "C:\\ProgramacionAvanzada\\VintageAPI\\DO\\DO.csproj",
+  "projectFilePath": "C:\\AvanzadaWeb\\VintageAPI\\DO\\DO.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
