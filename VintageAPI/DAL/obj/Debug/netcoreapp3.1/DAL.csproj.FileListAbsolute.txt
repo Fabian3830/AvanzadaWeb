@@ -12,3 +12,17 @@ C:\ProgramacionAvanzada\VintageAPI\DAL\obj\Debug\netcoreapp3.1\DAL.pdb
 C:\ProgramacionAvanzada\VintageAPI\DAL\obj\Debug\netcoreapp3.1\DAL.csproj.CoreCompileInputs.cache
 C:\ProgramacionAvanzada\VintageAPI\DAL\bin\Debug\netcoreapp3.1\DAL.REPOSITORY.dll
 C:\ProgramacionAvanzada\VintageAPI\DAL\bin\Debug\netcoreapp3.1\DAL.REPOSITORY.pdb
+C:\AvanzadaWeb\VintageAPI\DAL\bin\Debug\netcoreapp3.1\DAL.deps.json
+C:\AvanzadaWeb\VintageAPI\DAL\bin\Debug\netcoreapp3.1\DAL.dll
+C:\AvanzadaWeb\VintageAPI\DAL\bin\Debug\netcoreapp3.1\DAL.pdb
+C:\AvanzadaWeb\VintageAPI\DAL\bin\Debug\netcoreapp3.1\DAL.MODEL.dll
+C:\AvanzadaWeb\VintageAPI\DAL\bin\Debug\netcoreapp3.1\DAL.REPOSITORY.dll
+C:\AvanzadaWeb\VintageAPI\DAL\bin\Debug\netcoreapp3.1\DAL.MODEL.pdb
+C:\AvanzadaWeb\VintageAPI\DAL\bin\Debug\netcoreapp3.1\DAL.REPOSITORY.pdb
+C:\AvanzadaWeb\VintageAPI\DAL\obj\Debug\netcoreapp3.1\DAL.csprojAssemblyReference.cache
+C:\AvanzadaWeb\VintageAPI\DAL\obj\Debug\netcoreapp3.1\DAL.csproj.CoreCompileInputs.cache
+C:\AvanzadaWeb\VintageAPI\DAL\obj\Debug\netcoreapp3.1\DAL.AssemblyInfoInputs.cache
+C:\AvanzadaWeb\VintageAPI\DAL\obj\Debug\netcoreapp3.1\DAL.AssemblyInfo.cs
+C:\AvanzadaWeb\VintageAPI\DAL\obj\Debug\netcoreapp3.1\DAL.csproj.CopyComplete
+C:\AvanzadaWeb\VintageAPI\DAL\obj\Debug\netcoreapp3.1\DAL.dll
+C:\AvanzadaWeb\VintageAPI\DAL\obj\Debug\netcoreapp3.1\DAL.pdb

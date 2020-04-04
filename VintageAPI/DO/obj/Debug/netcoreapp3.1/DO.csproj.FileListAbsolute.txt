@@ -16,3 +16,12 @@ C:\Users\jafet\Desktop\VintageAPI\DO\obj\Debug\netcoreapp3.1\DO.dll
 C:\Users\jafet\Desktop\VintageAPI\DO\obj\Debug\netcoreapp3.1\DO.pdb
 C:\ProgramacionAvanzada\VintageAPI\DO\obj\Debug\netcoreapp3.1\DO.csproj.CoreCompileInputs.cache
 C:\ProgramacionAvanzada\VintageAPI\DO\obj\Debug\netcoreapp3.1\DO.csprojAssemblyReference.cache
+C:\AvanzadaWeb\VintageAPI\DO\bin\Debug\netcoreapp3.1\DO.deps.json
+C:\AvanzadaWeb\VintageAPI\DO\bin\Debug\netcoreapp3.1\DO.dll
+C:\AvanzadaWeb\VintageAPI\DO\bin\Debug\netcoreapp3.1\DO.pdb
+C:\AvanzadaWeb\VintageAPI\DO\obj\Debug\netcoreapp3.1\DO.csprojAssemblyReference.cache
+C:\AvanzadaWeb\VintageAPI\DO\obj\Debug\netcoreapp3.1\DO.csproj.CoreCompileInputs.cache
+C:\AvanzadaWeb\VintageAPI\DO\obj\Debug\netcoreapp3.1\DO.AssemblyInfoInputs.cache
+C:\AvanzadaWeb\VintageAPI\DO\obj\Debug\netcoreapp3.1\DO.AssemblyInfo.cs
+C:\AvanzadaWeb\VintageAPI\DO\obj\Debug\netcoreapp3.1\DO.dll
+C:\AvanzadaWeb\VintageAPI\DO\obj\Debug\netcoreapp3.1\DO.pdb
