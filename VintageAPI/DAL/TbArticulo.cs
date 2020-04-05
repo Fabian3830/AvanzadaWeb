@@ -1,17 +1,16 @@
-﻿using data = DAL.MODEL;
-using DAL.REPOSITORY;
+﻿using DAL.REPOSITORY;
 using MongoDB.Driver;
 using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
-using modelo = DAL.MODEL;
+using modelo = DO.Objetos;
 
 namespace DAL
 {
     public class TbArticulo
     {
-        private Repository<data.TbArticulo> _repository = new Repository<data.TbArticulo>("TbArticulo");
+        private Repository<modelo.TbArticulo> _repository = new Repository<modelo.TbArticulo>("TbArticulo");
 
         public async Task Create(modelo.TbArticulo entity)
         {

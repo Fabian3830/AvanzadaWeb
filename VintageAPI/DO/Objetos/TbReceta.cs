@@ -1,12 +1,10 @@
 ﻿using MongoDB.Bson;
 using MongoDB.Bson.Serialization.Attributes;
-using System;
 using System.Collections.Generic;
-using System.Text;
 
-namespace DAL.MODEL
+namespace DO.Objetos
 {
-    public class TbArticulo
+    public class TbReceta
     {
         [BsonId]
         [BsonRepresentation(BsonType.ObjectId)]
@@ -15,12 +13,16 @@ namespace DAL.MODEL
 #nullable disable
 
         public string sNombre { get; set; }
+#nullable enable
+        public IEnumerable<string>? aEtiqueta { get; set; }
+#nullable disable
+        public string dFechaPublicacion { get; set; }
 
-        public int iCant { get; set; }
+        public string sTexto { get; set; }
 
         public int iPrecio { get; set; }
 
-        public string sDescripcion { get; set; }
+        public string sUrlVideo { get; set; }
 
         public string sUrlImagen { get; set; }
 

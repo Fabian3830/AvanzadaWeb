@@ -10,6 +10,7 @@
         "dependencies": {
           "DAL.MODEL": "1.0.0",
           "DAL.REPOSITORY": "1.0.0",
+          "DO": "1.0.0",
           "MongoDB.Driver": "2.10.2"
         },
         "runtime": {
@@ -1055,6 +1056,14 @@
         "runtime": {
           "DAL.REPOSITORY.dll": {}
         }
+      },
+      "DO/1.0.0": {
+        "dependencies": {
+          "MongoDB.Bson": "2.10.2"
+        },
+        "runtime": {
+          "DO.dll": {}
+        }
       }
     }
   },
@@ -1791,6 +1800,11 @@
       "sha512": ""
     },
     "DAL.REPOSITORY/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DO/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

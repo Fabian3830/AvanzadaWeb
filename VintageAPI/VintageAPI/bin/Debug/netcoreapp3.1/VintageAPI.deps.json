@@ -1974,6 +1974,7 @@
         "dependencies": {
           "DAL.MODEL": "1.0.0",
           "DAL.REPOSITORY": "1.0.0",
+          "DO": "1.0.0",
           "MongoDB.Driver": "2.10.2"
         },
         "runtime": {
@@ -2007,6 +2008,9 @@
         }
       },
       "DO/1.0.0": {
+        "dependencies": {
+          "MongoDB.Bson": "2.10.2"
+        },
         "runtime": {
           "DO.dll": {}
         },

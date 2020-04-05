@@ -11,6 +11,7 @@
   <ItemGroup>
     <ProjectReference Include="..\DAL.MODEL\DAL.MODEL.csproj" />
     <ProjectReference Include="..\DAL.REPOSITORY\DAL.REPOSITORY.csproj" />
+    <ProjectReference Include="..\DO\DO.csproj" />
   </ItemGroup>
 
 </Project>

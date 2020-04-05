@@ -26,3 +26,5 @@ C:\AvanzadaWeb\VintageAPI\DAL\obj\Debug\netcoreapp3.1\DAL.AssemblyInfo.cs
 C:\AvanzadaWeb\VintageAPI\DAL\obj\Debug\netcoreapp3.1\DAL.csproj.CopyComplete
 C:\AvanzadaWeb\VintageAPI\DAL\obj\Debug\netcoreapp3.1\DAL.dll
 C:\AvanzadaWeb\VintageAPI\DAL\obj\Debug\netcoreapp3.1\DAL.pdb
+C:\AvanzadaWeb\VintageAPI\DAL\bin\Debug\netcoreapp3.1\DO.dll
+C:\AvanzadaWeb\VintageAPI\DAL\bin\Debug\netcoreapp3.1\DO.pdb

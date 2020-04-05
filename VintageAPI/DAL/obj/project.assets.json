@@ -1811,6 +1811,19 @@
         "runtime": {
           "bin/placeholder/DAL.REPOSITORY.dll": {}
         }
+      },
+      "DO/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "MongoDB.Bson": "2.10.2"
+        },
+        "compile": {
+          "bin/placeholder/DO.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DO.dll": {}
+        }
       }
     }
   },
@@ -6228,12 +6241,18 @@
       "type": "project",
       "path": "../DAL.REPOSITORY/DAL.REPOSITORY.csproj",
       "msbuildProject": "../DAL.REPOSITORY/DAL.REPOSITORY.csproj"
+    },
+    "DO/1.0.0": {
+      "type": "project",
+      "path": "../DO/DO.csproj",
+      "msbuildProject": "../DO/DO.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "DAL.MODEL >= 1.0.0",
       "DAL.REPOSITORY >= 1.0.0",
+      "DO >= 1.0.0",
       "MongoDB.Driver >= 2.10.2"
     ]
   },
@@ -6268,6 +6287,9 @@
             },
             "C:\\AvanzadaWeb\\VintageAPI\\DAL.REPOSITORY\\DAL.REPOSITORY.csproj": {
               "projectPath": "C:\\AvanzadaWeb\\VintageAPI\\DAL.REPOSITORY\\DAL.REPOSITORY.csproj"
+            },
+            "C:\\AvanzadaWeb\\VintageAPI\\DO\\DO.csproj": {
+              "projectPath": "C:\\AvanzadaWeb\\VintageAPI\\DO\\DO.csproj"
             }
           }
         }

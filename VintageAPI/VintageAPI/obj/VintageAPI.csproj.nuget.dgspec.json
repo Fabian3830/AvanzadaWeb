@@ -220,6 +220,9 @@
               },
               "C:\\AvanzadaWeb\\VintageAPI\\DAL.REPOSITORY\\DAL.REPOSITORY.csproj": {
                 "projectPath": "C:\\AvanzadaWeb\\VintageAPI\\DAL.REPOSITORY\\DAL.REPOSITORY.csproj"
+              },
+              "C:\\AvanzadaWeb\\VintageAPI\\DO\\DO.csproj": {
+                "projectPath": "C:\\AvanzadaWeb\\VintageAPI\\DO\\DO.csproj"
               }
             }
           }
@@ -290,6 +293,12 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "MongoDB.Bson": {
+              "target": "Package",
+              "version": "[2.10.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

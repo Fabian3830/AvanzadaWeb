@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using System.Text;
 using ent = DO.Interface;
-using data = DAL.MODEL;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
 using DAL;
+using data = DO.Objetos;
 
 namespace BS
 {
