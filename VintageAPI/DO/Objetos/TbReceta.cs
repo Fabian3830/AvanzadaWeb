@@ -1,5 +1,6 @@
 ﻿using MongoDB.Bson;
 using MongoDB.Bson.Serialization.Attributes;
+using System;
 using System.Collections.Generic;
 
 namespace DO.Objetos
@@ -16,7 +17,7 @@ namespace DO.Objetos
 #nullable enable
         public IEnumerable<string>? aEtiqueta { get; set; }
 #nullable disable
-        public string dFechaPublicacion { get; set; }
+        public DateTime dFechaPublicacion { get; set; }
 
         public string sTexto { get; set; }
 
