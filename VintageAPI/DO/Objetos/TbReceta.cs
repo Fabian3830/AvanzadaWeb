@@ -27,6 +27,8 @@ namespace DO.Objetos
 
         public string sUrlImagen { get; set; }
 
+        public string sUrlVideoTrailer { get; set; }
+
         public bool bActivo { get; set; }
 
     }
