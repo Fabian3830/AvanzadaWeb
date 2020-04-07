@@ -16,7 +16,7 @@ namespace BS
         {
             if (string.IsNullOrEmpty(id)) return "Invalid ID";
             await new DAL.TbArticulo().Remove(id);
-            return "";
+            return "ok";
         }
 
         public async Task<IEnumerable<DO.Objetos.TbArticulo>> GetAll()
@@ -26,16 +26,16 @@ namespace BS
             return objetos;
         }
 
-        public async Task<string> GetOneById(string id)
+        public async Task<DO.Objetos.TbArticulo> GetOneById(string id)
         {
             var objeto = await new DAL.TbArticulo().Get(id) ?? new data.TbArticulo();
-            return JsonConvert.SerializeObject(objeto);
+            return objeto;
         }
 
         public async Task<string> Insert(data.TbArticulo entity)
         {
             await new DAL.TbArticulo().Create(entity);
-            return "";
+            return "insertado";
         }
 
         public async Task<string> Updated(string id, data.TbArticulo entity)

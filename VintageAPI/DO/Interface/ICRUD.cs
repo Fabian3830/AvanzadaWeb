@@ -11,6 +11,6 @@ namespace DO.Interface
         Task<string> Updated(string id, T entity);
         Task<string> Delete(string id);
         Task<IEnumerable<T>> GetAll();
-        Task<string> GetOneById(string id);
+        Task<T> GetOneById(string id);
     }
 }

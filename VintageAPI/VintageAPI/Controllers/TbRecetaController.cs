@@ -15,14 +15,24 @@ namespace VintageAPI.Controllers
     [Produces("application/json")]
     public class TbRecetaController : ControllerBase
     {
-        [HttpGet]
+        
+
+        [HttpGet("e")]
+        public string GetVerga()
+        {
+            //var xyz = context.HttpContext.Request?.Headers["Basic"];
+            
+            return "asd";
+        }
+
+        [HttpGet]   
         public Task<IEnumerable<DO.Objetos.TbReceta>> Get()
         {
             return new BS.TbReceta().GetAll();
         }
 
         [HttpGet("{id}")]
-        public Task<string> Get(string id)
+        public Task<DO.Objetos.TbReceta> Get(string id)
         {
             return new BS.TbReceta().GetOneById(id);
         }

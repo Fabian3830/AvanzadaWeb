@@ -12,6 +12,7 @@ namespace VintageAPI.Controllers
 
     [Route("Admin")]
     [ApiController]
+    [Produces("application/json")]
     public class TbClienteAdminController : ControllerBase
     {
         [HttpPost]

@@ -26,10 +26,10 @@ namespace BS
             return objetos;
         }
 
-        public async Task<string> GetOneById(string id)
+        public async Task<DO.Objetos.TbCategoria> GetOneById(string id)
         {
             var objeto = await new DAL.TbCategoria().Get(id) ?? new data.TbCategoria();
-            return JsonConvert.SerializeObject(objeto);
+            return objeto;
         }
 
         public async Task<string> Insert(data.TbCategoria entity)

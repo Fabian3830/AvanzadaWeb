@@ -12,6 +12,7 @@ namespace VintageAPI.Controllers
   
     [Route("Articulo")]
     [ApiController]
+    [Produces("application/json")]
     public class TbArticuloController : ControllerBase
     {
         [HttpGet]
@@ -21,7 +22,7 @@ namespace VintageAPI.Controllers
         }
 
         [HttpGet("{id}")]
-        public Task<string> Get(string id)
+        public Task<DO.Objetos.TbArticulo> Get(string id)
         {
             return new BS.TbArticulo().GetOneById(id);
         }

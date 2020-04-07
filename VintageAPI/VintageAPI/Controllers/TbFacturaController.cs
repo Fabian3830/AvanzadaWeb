@@ -12,6 +12,7 @@ namespace VintageAPI.Controllers
 
     [Route("Factura")]
     [ApiController]
+    [Produces("application/json")]
     public class TbFacturaController : ControllerBase
     {
         [HttpGet]
@@ -21,7 +22,7 @@ namespace VintageAPI.Controllers
         }
 
         [HttpGet("{id}")]
-        public Task<string> Get(string id)
+        public Task<DO.Objetos.TbFactura> Get(string id)
         {
             return new BS.TbFactura().GetOneById(id);
         }
