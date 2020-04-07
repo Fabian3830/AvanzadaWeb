@@ -15,7 +15,7 @@ namespace VintageAPI.Controllers
     public class TbHistorialController : ControllerBase
     {
         [HttpGet]
-        public Task<string> Get()
+        public Task<IEnumerable<DO.Objetos.TbHistorial>> Get()
         {
             return new BS.TbHistorial().GetAll();
         }

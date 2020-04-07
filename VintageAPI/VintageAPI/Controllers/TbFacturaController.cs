@@ -15,7 +15,7 @@ namespace VintageAPI.Controllers
     public class TbFacturaController : ControllerBase
     {
         [HttpGet]
-        public Task<string> Get()
+        public Task<IEnumerable<DO.Objetos.TbFactura>> Get()
         {
             return new BS.TbFactura().GetAll();
         }

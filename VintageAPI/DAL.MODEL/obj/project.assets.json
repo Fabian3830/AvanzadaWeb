@@ -6199,19 +6199,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Fabian\\.nuget\\packages\\": {}
+    "C:\\Users\\jafet\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\AvanzadaWeb\\VintageAPI\\DAL.MODEL\\DAL.MODEL.csproj",
+      "projectUniqueName": "E:\\usuario\\CODEAR\\vIsualProyects\\AvanzadaWeb\\VintageAPI\\DAL.MODEL\\DAL.MODEL.csproj",
       "projectName": "DAL.MODEL",
-      "projectPath": "C:\\AvanzadaWeb\\VintageAPI\\DAL.MODEL\\DAL.MODEL.csproj",
-      "packagesPath": "C:\\Users\\Fabian\\.nuget\\packages\\",
-      "outputPath": "C:\\AvanzadaWeb\\VintageAPI\\DAL.MODEL\\obj\\",
+      "projectPath": "E:\\usuario\\CODEAR\\vIsualProyects\\AvanzadaWeb\\VintageAPI\\DAL.MODEL\\DAL.MODEL.csproj",
+      "packagesPath": "C:\\Users\\jafet\\.nuget\\packages\\",
+      "outputPath": "E:\\usuario\\CODEAR\\vIsualProyects\\AvanzadaWeb\\VintageAPI\\DAL.MODEL\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Fabian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\jafet\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

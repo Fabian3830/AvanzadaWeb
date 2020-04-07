@@ -15,7 +15,7 @@ namespace VintageAPI.Controllers
     public class TbClienteController : ControllerBase
     {
         [HttpGet]
-        public Task<string> Get()
+        public Task<IEnumerable<DO.Objetos.TbCliente>> Get()
         {
             return new BS.TbCliente().GetAll();
         }

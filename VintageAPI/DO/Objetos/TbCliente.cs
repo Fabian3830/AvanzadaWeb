@@ -19,7 +19,7 @@ namespace DO.Objetos
 
         public string sCorreo { get; set; }
 
-        public string dNacimiento { get; set; }
+        public BsonDateTime dNacimiento { get; set; }
 #nullable enable
         public IEnumerable<string>? aRecetas { get; set; }
 

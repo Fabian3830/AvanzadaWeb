@@ -15,7 +15,7 @@ namespace VintageAPI.Controllers
     public class TbCategoriaController : ControllerBase
     {
         [HttpGet]
-        public Task<string> Get()
+        public Task<IEnumerable<DO.Objetos.TbCategoria>> Get()
         {
             return new BS.TbCategoria().GetAll();
         }

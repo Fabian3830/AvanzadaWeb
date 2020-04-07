@@ -25,3 +25,12 @@ C:\AvanzadaWeb\VintageAPI\DAL.MODEL\obj\Debug\netcoreapp3.1\DAL.MODEL.AssemblyIn
 C:\AvanzadaWeb\VintageAPI\DAL.MODEL\obj\Debug\netcoreapp3.1\DAL.MODEL.AssemblyInfo.cs
 C:\AvanzadaWeb\VintageAPI\DAL.MODEL\obj\Debug\netcoreapp3.1\DAL.MODEL.dll
 C:\AvanzadaWeb\VintageAPI\DAL.MODEL\obj\Debug\netcoreapp3.1\DAL.MODEL.pdb
+E:\usuario\CODEAR\vIsualProyects\AvanzadaWeb\VintageAPI\DAL.MODEL\bin\Debug\netcoreapp3.1\DAL.MODEL.deps.json
+E:\usuario\CODEAR\vIsualProyects\AvanzadaWeb\VintageAPI\DAL.MODEL\bin\Debug\netcoreapp3.1\DAL.MODEL.dll
+E:\usuario\CODEAR\vIsualProyects\AvanzadaWeb\VintageAPI\DAL.MODEL\bin\Debug\netcoreapp3.1\DAL.MODEL.pdb
+E:\usuario\CODEAR\vIsualProyects\AvanzadaWeb\VintageAPI\DAL.MODEL\obj\Debug\netcoreapp3.1\DAL.MODEL.csprojAssemblyReference.cache
+E:\usuario\CODEAR\vIsualProyects\AvanzadaWeb\VintageAPI\DAL.MODEL\obj\Debug\netcoreapp3.1\DAL.MODEL.csproj.CoreCompileInputs.cache
+E:\usuario\CODEAR\vIsualProyects\AvanzadaWeb\VintageAPI\DAL.MODEL\obj\Debug\netcoreapp3.1\DAL.MODEL.AssemblyInfoInputs.cache
+E:\usuario\CODEAR\vIsualProyects\AvanzadaWeb\VintageAPI\DAL.MODEL\obj\Debug\netcoreapp3.1\DAL.MODEL.AssemblyInfo.cs
+E:\usuario\CODEAR\vIsualProyects\AvanzadaWeb\VintageAPI\DAL.MODEL\obj\Debug\netcoreapp3.1\DAL.MODEL.dll
+E:\usuario\CODEAR\vIsualProyects\AvanzadaWeb\VintageAPI\DAL.MODEL\obj\Debug\netcoreapp3.1\DAL.MODEL.pdb

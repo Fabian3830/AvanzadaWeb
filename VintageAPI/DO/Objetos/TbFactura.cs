@@ -13,9 +13,9 @@ namespace DO.Objetos
 #nullable disable
         public string sCliente { get; set; }
 
-        public string dFecha { get; set; }
+        public BsonDateTime dFecha { get; set; }
 #nullable enable
-        public IEnumerable<string>? aCompras { get; set; }
+        public IEnumerable<object>? aCompras { get; set; }
 #nullable disable
         public int iSubtotal { get; set; }
 

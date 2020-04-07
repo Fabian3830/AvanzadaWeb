@@ -10,7 +10,7 @@ namespace DO.Interface
         Task<string> Insert(T entity);
         Task<string> Updated(string id, T entity);
         Task<string> Delete(string id);
-        Task<string> GetAll();
+        Task<IEnumerable<T>> GetAll();
         Task<string> GetOneById(string id);
     }
 }

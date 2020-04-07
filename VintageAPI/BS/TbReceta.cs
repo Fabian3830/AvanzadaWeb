@@ -9,7 +9,7 @@ using data = DO.Objetos;
 
 namespace BS
 {
-    public class TbReceta : ent.ICRUD<data.TbReceta>
+    public class TbReceta : DO.Interface.ICRUD<data.TbReceta>
     {
 
         public async Task<string> Delete(string id)
@@ -19,10 +19,11 @@ namespace BS
             return "";
         }
 
-        public async Task<string> GetAll()
+        public async Task<IEnumerable<DO.Objetos.TbReceta>> GetAll()
         {
-            var objetos = await new DAL.TbReceta().Get();
-            return JsonConvert.SerializeObject(objetos);
+            IEnumerable<DO.Objetos.TbReceta>  objetos = await new DAL.TbReceta().Get();
+            //return JsonConvert.SerializeObject(objetos);
+            return objetos;
         }
 
         public async Task<string> GetOneById(string id)

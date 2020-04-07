@@ -11,7 +11,7 @@ namespace DO.Objetos
         public string? _id { get; set; }
 #nullable disable
 
-        public string dFecha { get; set; }
+        public BsonDateTime dFecha { get; set; }
 
         public bool bMinTest { get; set; }
 

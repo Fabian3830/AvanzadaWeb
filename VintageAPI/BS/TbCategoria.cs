@@ -19,10 +19,11 @@ namespace BS
             return "";
         }
 
-        public async Task<string> GetAll()
+        public async Task<IEnumerable<DO.Objetos.TbCategoria>> GetAll()
         {
             var objetos = await new DAL.TbCategoria().Get();
-            return JsonConvert.SerializeObject(objetos);
+            //return JsonConvert.SerializeObject(objetos);
+            return objetos;
         }
 
         public async Task<string> GetOneById(string id)

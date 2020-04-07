@@ -25,3 +25,12 @@ C:\AvanzadaWeb\VintageAPI\DO\obj\Debug\netcoreapp3.1\DO.AssemblyInfo.cs
 C:\AvanzadaWeb\VintageAPI\DO\obj\Debug\netcoreapp3.1\DO.dll
 C:\AvanzadaWeb\VintageAPI\DO\obj\Debug\netcoreapp3.1\DO.pdb
 C:\AvanzadaWeb\VintageAPI\DO\obj\Debug\netcoreapp3.1\DO.csproj.CoreCompileInputs.cache
+E:\usuario\CODEAR\vIsualProyects\AvanzadaWeb\VintageAPI\DO\bin\Debug\netcoreapp3.1\DO.deps.json
+E:\usuario\CODEAR\vIsualProyects\AvanzadaWeb\VintageAPI\DO\bin\Debug\netcoreapp3.1\DO.dll
+E:\usuario\CODEAR\vIsualProyects\AvanzadaWeb\VintageAPI\DO\bin\Debug\netcoreapp3.1\DO.pdb
+E:\usuario\CODEAR\vIsualProyects\AvanzadaWeb\VintageAPI\DO\obj\Debug\netcoreapp3.1\DO.csprojAssemblyReference.cache
+E:\usuario\CODEAR\vIsualProyects\AvanzadaWeb\VintageAPI\DO\obj\Debug\netcoreapp3.1\DO.csproj.CoreCompileInputs.cache
+E:\usuario\CODEAR\vIsualProyects\AvanzadaWeb\VintageAPI\DO\obj\Debug\netcoreapp3.1\DO.AssemblyInfoInputs.cache
+E:\usuario\CODEAR\vIsualProyects\AvanzadaWeb\VintageAPI\DO\obj\Debug\netcoreapp3.1\DO.AssemblyInfo.cs
+E:\usuario\CODEAR\vIsualProyects\AvanzadaWeb\VintageAPI\DO\obj\Debug\netcoreapp3.1\DO.dll
+E:\usuario\CODEAR\vIsualProyects\AvanzadaWeb\VintageAPI\DO\obj\Debug\netcoreapp3.1\DO.pdb

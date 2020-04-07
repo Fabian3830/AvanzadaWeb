@@ -21,6 +21,7 @@ namespace VintageAPI
 
         public IConfiguration Configuration { get; }
 
+        readonly string MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
@@ -29,6 +30,14 @@ namespace VintageAPI
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "My API", Version = "v1" });
+            });
+            services.AddCors(options =>
+            {
+                options.AddPolicy(MyAllowSpecificOrigins,
+                builder =>
+                {
+                    builder.WithOrigins("http://localhost:3000", "https://localhost:3000")  .AllowAnyHeader()   .AllowAnyMethod(); ;
+                });
             });
         }
 
@@ -47,6 +56,7 @@ namespace VintageAPI
             }
 
             app.UseSwagger();
+            app.UseCors(MyAllowSpecificOrigins);
 
             // Enable middleware to serve swagger-ui (HTML, JS, CSS, etc.),
             // specifying the Swagger JSON endpoint.

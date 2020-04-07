@@ -12,10 +12,11 @@ namespace VintageAPI.Controllers
 
     [Route("Receta")]
     [ApiController]
+    [Produces("application/json")]
     public class TbRecetaController : ControllerBase
     {
         [HttpGet]
-        public Task<string> Get()
+        public Task<IEnumerable<DO.Objetos.TbReceta>> Get()
         {
             return new BS.TbReceta().GetAll();
         }
