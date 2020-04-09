@@ -40,7 +40,6 @@ namespace BS
             entity.oDireccion = acom;
 
 
-            //var acom2 = JsonConvert.DeserializeObject<data.TbArticulo[]>(entity.aCompras.ToString());
             object[] acompras=new object[entity.aCompras.Length];
             for (int i = 0; i < entity.aCompras.Length; i++)
             {
