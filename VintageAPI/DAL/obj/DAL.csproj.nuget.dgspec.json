@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\usuario\\CODEAR\\vIsualProyects\\AvanzadaWeb\\VintageAPI\\DAL\\DAL.csproj": {}
+    "C:\\AvanzadaWeb\\VintageAPI\\DAL\\DAL.csproj": {}
   },
   "projects": {
-    "E:\\usuario\\CODEAR\\vIsualProyects\\AvanzadaWeb\\VintageAPI\\DAL.MODEL\\DAL.MODEL.csproj": {
+    "C:\\AvanzadaWeb\\VintageAPI\\DAL.MODEL\\DAL.MODEL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\usuario\\CODEAR\\vIsualProyects\\AvanzadaWeb\\VintageAPI\\DAL.MODEL\\DAL.MODEL.csproj",
+        "projectUniqueName": "C:\\AvanzadaWeb\\VintageAPI\\DAL.MODEL\\DAL.MODEL.csproj",
         "projectName": "DAL.MODEL",
-        "projectPath": "E:\\usuario\\CODEAR\\vIsualProyects\\AvanzadaWeb\\VintageAPI\\DAL.MODEL\\DAL.MODEL.csproj",
-        "packagesPath": "C:\\Users\\jafet\\.nuget\\packages\\",
-        "outputPath": "E:\\usuario\\CODEAR\\vIsualProyects\\AvanzadaWeb\\VintageAPI\\DAL.MODEL\\obj\\",
+        "projectPath": "C:\\AvanzadaWeb\\VintageAPI\\DAL.MODEL\\DAL.MODEL.csproj",
+        "packagesPath": "C:\\Users\\Fabian\\.nuget\\packages\\",
+        "outputPath": "C:\\AvanzadaWeb\\VintageAPI\\DAL.MODEL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\jafet\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Fabian\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -62,17 +62,17 @@
         }
       }
     },
-    "E:\\usuario\\CODEAR\\vIsualProyects\\AvanzadaWeb\\VintageAPI\\DAL.REPOSITORY\\DAL.REPOSITORY.csproj": {
+    "C:\\AvanzadaWeb\\VintageAPI\\DAL.REPOSITORY\\DAL.REPOSITORY.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\usuario\\CODEAR\\vIsualProyects\\AvanzadaWeb\\VintageAPI\\DAL.REPOSITORY\\DAL.REPOSITORY.csproj",
+        "projectUniqueName": "C:\\AvanzadaWeb\\VintageAPI\\DAL.REPOSITORY\\DAL.REPOSITORY.csproj",
         "projectName": "DAL.REPOSITORY",
-        "projectPath": "E:\\usuario\\CODEAR\\vIsualProyects\\AvanzadaWeb\\VintageAPI\\DAL.REPOSITORY\\DAL.REPOSITORY.csproj",
-        "packagesPath": "C:\\Users\\jafet\\.nuget\\packages\\",
-        "outputPath": "E:\\usuario\\CODEAR\\vIsualProyects\\AvanzadaWeb\\VintageAPI\\DAL.REPOSITORY\\obj\\",
+        "projectPath": "C:\\AvanzadaWeb\\VintageAPI\\DAL.REPOSITORY\\DAL.REPOSITORY.csproj",
+        "packagesPath": "C:\\Users\\Fabian\\.nuget\\packages\\",
+        "outputPath": "C:\\AvanzadaWeb\\VintageAPI\\DAL.REPOSITORY\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\jafet\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Fabian\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -85,8 +85,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "E:\\usuario\\CODEAR\\vIsualProyects\\AvanzadaWeb\\VintageAPI\\DAL.MODEL\\DAL.MODEL.csproj": {
-                "projectPath": "E:\\usuario\\CODEAR\\vIsualProyects\\AvanzadaWeb\\VintageAPI\\DAL.MODEL\\DAL.MODEL.csproj"
+              "C:\\AvanzadaWeb\\VintageAPI\\DAL.MODEL\\DAL.MODEL.csproj": {
+                "projectPath": "C:\\AvanzadaWeb\\VintageAPI\\DAL.MODEL\\DAL.MODEL.csproj"
               }
             }
           }
@@ -124,17 +124,17 @@
         }
       }
     },
-    "E:\\usuario\\CODEAR\\vIsualProyects\\AvanzadaWeb\\VintageAPI\\DAL\\DAL.csproj": {
+    "C:\\AvanzadaWeb\\VintageAPI\\DAL\\DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\usuario\\CODEAR\\vIsualProyects\\AvanzadaWeb\\VintageAPI\\DAL\\DAL.csproj",
+        "projectUniqueName": "C:\\AvanzadaWeb\\VintageAPI\\DAL\\DAL.csproj",
         "projectName": "DAL",
-        "projectPath": "E:\\usuario\\CODEAR\\vIsualProyects\\AvanzadaWeb\\VintageAPI\\DAL\\DAL.csproj",
-        "packagesPath": "C:\\Users\\jafet\\.nuget\\packages\\",
-        "outputPath": "E:\\usuario\\CODEAR\\vIsualProyects\\AvanzadaWeb\\VintageAPI\\DAL\\obj\\",
+        "projectPath": "C:\\AvanzadaWeb\\VintageAPI\\DAL\\DAL.csproj",
+        "packagesPath": "C:\\Users\\Fabian\\.nuget\\packages\\",
+        "outputPath": "C:\\AvanzadaWeb\\VintageAPI\\DAL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\jafet\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Fabian\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -147,14 +147,14 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "E:\\usuario\\CODEAR\\vIsualProyects\\AvanzadaWeb\\VintageAPI\\DAL.MODEL\\DAL.MODEL.csproj": {
-                "projectPath": "E:\\usuario\\CODEAR\\vIsualProyects\\AvanzadaWeb\\VintageAPI\\DAL.MODEL\\DAL.MODEL.csproj"
+              "C:\\AvanzadaWeb\\VintageAPI\\DAL.MODEL\\DAL.MODEL.csproj": {
+                "projectPath": "C:\\AvanzadaWeb\\VintageAPI\\DAL.MODEL\\DAL.MODEL.csproj"
               },
-              "E:\\usuario\\CODEAR\\vIsualProyects\\AvanzadaWeb\\VintageAPI\\DAL.REPOSITORY\\DAL.REPOSITORY.csproj": {
-                "projectPath": "E:\\usuario\\CODEAR\\vIsualProyects\\AvanzadaWeb\\VintageAPI\\DAL.REPOSITORY\\DAL.REPOSITORY.csproj"
+              "C:\\AvanzadaWeb\\VintageAPI\\DAL.REPOSITORY\\DAL.REPOSITORY.csproj": {
+                "projectPath": "C:\\AvanzadaWeb\\VintageAPI\\DAL.REPOSITORY\\DAL.REPOSITORY.csproj"
               },
-              "E:\\usuario\\CODEAR\\vIsualProyects\\AvanzadaWeb\\VintageAPI\\DO\\DO.csproj": {
-                "projectPath": "E:\\usuario\\CODEAR\\vIsualProyects\\AvanzadaWeb\\VintageAPI\\DO\\DO.csproj"
+              "C:\\AvanzadaWeb\\VintageAPI\\DO\\DO.csproj": {
+                "projectPath": "C:\\AvanzadaWeb\\VintageAPI\\DO\\DO.csproj"
               }
             }
           }
@@ -192,17 +192,17 @@
         }
       }
     },
-    "E:\\usuario\\CODEAR\\vIsualProyects\\AvanzadaWeb\\VintageAPI\\DO\\DO.csproj": {
+    "C:\\AvanzadaWeb\\VintageAPI\\DO\\DO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\usuario\\CODEAR\\vIsualProyects\\AvanzadaWeb\\VintageAPI\\DO\\DO.csproj",
+        "projectUniqueName": "C:\\AvanzadaWeb\\VintageAPI\\DO\\DO.csproj",
         "projectName": "DO",
-        "projectPath": "E:\\usuario\\CODEAR\\vIsualProyects\\AvanzadaWeb\\VintageAPI\\DO\\DO.csproj",
-        "packagesPath": "C:\\Users\\jafet\\.nuget\\packages\\",
-        "outputPath": "E:\\usuario\\CODEAR\\vIsualProyects\\AvanzadaWeb\\VintageAPI\\DO\\obj\\",
+        "projectPath": "C:\\AvanzadaWeb\\VintageAPI\\DO\\DO.csproj",
+        "packagesPath": "C:\\Users\\Fabian\\.nuget\\packages\\",
+        "outputPath": "C:\\AvanzadaWeb\\VintageAPI\\DO\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\jafet\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Fabian\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

@@ -1,5 +1,6 @@
 ﻿using MongoDB.Bson;
 using MongoDB.Bson.Serialization.Attributes;
+using System;
 using System.Collections.Generic;
 
 namespace DO.Objetos
@@ -13,7 +14,7 @@ namespace DO.Objetos
 #nullable disable
         public string sCliente { get; set; }
 
-        public BsonDateTime dFecha { get; set; }
+        public DateTime dFecha { get; set; }
 #nullable enable
         public IEnumerable<object>? aCompras { get; set; }
 #nullable disable

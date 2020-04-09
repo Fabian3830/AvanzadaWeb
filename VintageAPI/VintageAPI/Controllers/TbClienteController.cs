@@ -44,5 +44,11 @@ namespace VintageAPI.Controllers
         {
             return new BS.TbCliente().Delete(id);
         }
+
+        [HttpGet("/login")]
+        public Task<DO.Objetos.TbCliente> login([FromBody] data.credentials credential)
+        {
+            return new BS.TbCliente().Verify(credential);
+        }
     }
 }

@@ -36,5 +36,13 @@ namespace DAL
             await _repository.Update(id, entity);
             return "";
         }
+
+        public async Task<modelo.TbCliente> Verify(modelo.credentials credential)
+        {
+            MODEL.DBContext<modelo.TbCliente> contexto = new MODEL.DBContext<modelo.TbCliente>(new MODEL.DBSettings());
+            var filtro = Builders<modelo.TbCliente>.Filter.Eq("sCorreo", credential.email);
+            return await contexto.Collection("TbCliente").Find(filtro).FirstOrDefaultAsync();
+            
+        }
     }
 }

@@ -1,5 +1,6 @@
 ﻿using MongoDB.Bson;
 using MongoDB.Bson.Serialization.Attributes;
+using System;
 using System.Collections.Generic;
 
 namespace DO.Objetos
@@ -19,7 +20,7 @@ namespace DO.Objetos
 
         public string sCorreo { get; set; }
 
-        public BsonDateTime dNacimiento { get; set; }
+        public DateTime dNacimiento { get; set; }
 #nullable enable
         public IEnumerable<string>? aRecetas { get; set; }
 
@@ -33,5 +34,11 @@ namespace DO.Objetos
 #nullable enable
         public IEnumerable<string>? aPermisos { get; set; }
 #nullable disable
+    }
+
+    public class credentials
+    {
+        public string email;
+        public string password;
     }
 }
