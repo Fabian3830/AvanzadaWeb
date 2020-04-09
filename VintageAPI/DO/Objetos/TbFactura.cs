@@ -17,7 +17,7 @@ namespace DO.Objetos
         public DateTime dFecha { get; set; }
 
 #nullable enable
-        public BsonDocument[]? aCompras { get; set; }
+        public object[]? aCompras { get; set; }
 #nullable disable
         public int iSubtotal { get; set; }
 
