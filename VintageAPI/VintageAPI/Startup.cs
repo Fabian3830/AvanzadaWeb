@@ -31,10 +31,10 @@ namespace VintageAPI
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "My API", Version = "v1" });
             });
-            services.AddCors(options =>
+           /* services.AddCors(options =>
             {
                 options.AddPolicy("AllowOrigin", options => options.AllowAnyOrigin());
-            });
+            });*/
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -52,7 +52,7 @@ namespace VintageAPI
             }
 
             app.UseSwagger();
-            app.UseCors();
+            //app.UseCors();
 
             // Enable middleware to serve swagger-ui (HTML, JS, CSS, etc.),
             // specifying the Swagger JSON endpoint.
