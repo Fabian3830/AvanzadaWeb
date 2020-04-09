@@ -16,7 +16,7 @@ namespace DO.Objetos
 
         public DateTime dFecha { get; set; }
 #nullable enable
-        public IEnumerable<object>? aCompras { get; set; }
+        public IEnumerable<BsonDocument>? aCompras { get; set; }
 #nullable disable
         public int iSubtotal { get; set; }
 
