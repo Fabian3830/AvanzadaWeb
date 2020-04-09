@@ -5047,19 +5047,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Fabian\\.nuget\\packages\\": {}
+    "C:\\Users\\jafet\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\AvanzadaWeb\\VintageAPI\\DO\\DO.csproj",
+      "projectUniqueName": "E:\\usuario\\CODEAR\\vIsualProyects\\AvanzadaWeb\\VintageAPI\\DO\\DO.csproj",
       "projectName": "DO",
-      "projectPath": "C:\\AvanzadaWeb\\VintageAPI\\DO\\DO.csproj",
-      "packagesPath": "C:\\Users\\Fabian\\.nuget\\packages\\",
-      "outputPath": "C:\\AvanzadaWeb\\VintageAPI\\DO\\obj\\",
+      "projectPath": "E:\\usuario\\CODEAR\\vIsualProyects\\AvanzadaWeb\\VintageAPI\\DO\\DO.csproj",
+      "packagesPath": "C:\\Users\\jafet\\.nuget\\packages\\",
+      "outputPath": "E:\\usuario\\CODEAR\\vIsualProyects\\AvanzadaWeb\\VintageAPI\\DO\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Fabian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\jafet\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

@@ -33,11 +33,7 @@ namespace VintageAPI
             });
             services.AddCors(options =>
             {
-                options.AddPolicy(MyAllowSpecificOrigins,
-                builder =>
-                {
-                    builder.WithOrigins("http://localhost:3000", "https://localhost:3000")  .AllowAnyHeader()   .AllowAnyMethod(); ;
-                });
+                options.AddPolicy("AllowOrigin", options => options.AllowAnyOrigin());
             });
         }
 
