@@ -1,5 +1,6 @@
 ﻿using MongoDB.Bson;
 using MongoDB.Bson.Serialization.Attributes;
+using System;
 
 namespace DO.Objetos
 {
@@ -11,7 +12,7 @@ namespace DO.Objetos
         public string? _id { get; set; }
 #nullable disable
 
-        public BsonDateTime dFecha { get; set; }
+        public DateTime dFecha { get; set; }
 
         public bool bMinTest { get; set; }
 

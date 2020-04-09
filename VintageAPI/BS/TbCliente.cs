@@ -44,6 +44,26 @@ namespace BS
             return await new DAL.TbCliente().Update(id, entity);
         }
 
-
+        public async Task<data.TbCliente> Verify(data.credentials credential)
+        {
+            data.TbCliente cliente = await new DAL.TbCliente().Verify(credential);
+            if (cliente.sCorreo != null)
+            {
+                if(cliente.sContrasena == credential.password)
+                {
+                    cliente.sContrasena = null;
+                    return cliente;
+                }
+                else
+                {
+                    throw new ArgumentException("La contraseña del usuario es incorrecta");
+                }
+            }
+            else
+            {
+                throw new ArgumentException("El usuario ingresado no existe");
+            }
+            
+        }
     }
 }
