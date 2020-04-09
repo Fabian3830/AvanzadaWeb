@@ -15,8 +15,9 @@ namespace DO.Objetos
         public string sCliente { get; set; }
 
         public DateTime dFecha { get; set; }
+
 #nullable enable
-        public IEnumerable<RawBsonArray>? aCompras { get; set; }
+        public RawBsonArray? aCompras { get; set; }
 #nullable disable
         public int iSubtotal { get; set; }
 
