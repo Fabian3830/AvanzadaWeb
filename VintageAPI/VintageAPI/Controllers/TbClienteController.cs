@@ -46,7 +46,7 @@ namespace VintageAPI.Controllers
         }
 
         [HttpPost("/login")]
-        public Task<DO.Objetos.TbCliente> login([FromBody] data.credentials credential)
+        public Task<DO.Objetos.TbCliente> Login([FromBody] data.credentials credential)
         {
             return new BS.TbCliente().Verify(credential);
         }

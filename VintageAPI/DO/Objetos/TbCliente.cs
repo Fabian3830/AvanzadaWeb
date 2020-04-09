@@ -38,7 +38,7 @@ namespace DO.Objetos
 
     public class credentials
     {
-        public string email;
-        public string password;
+        public string email { get; set; }
+        public string password { get; set; }
     }
 }
