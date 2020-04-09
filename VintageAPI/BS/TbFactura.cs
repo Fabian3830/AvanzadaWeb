@@ -35,7 +35,7 @@ namespace BS
         public async Task<string> Insert(data.TbFactura entity)
         {
             await new DAL.TbFactura().Create(entity);
-            return "";
+            return "insertado";
         }
 
         public async Task<string> Updated(string id, data.TbFactura entity)

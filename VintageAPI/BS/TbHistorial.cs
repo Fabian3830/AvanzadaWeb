@@ -35,7 +35,7 @@ namespace BS
         public async Task<string> Insert(data.TbHistorial entity)
         {
             await new DAL.TbHistorial().Create(entity);
-            return "";
+            return "insertado";
         }
 
         public async Task<string> Updated(string id, data.TbHistorial entity)
