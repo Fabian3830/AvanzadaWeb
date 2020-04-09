@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Newtonsoft.Json;
 using DAL;
 using data = DO.Objetos;
+using Newtonsoft.Json;
 
 namespace BS
 {
@@ -34,6 +35,20 @@ namespace BS
 
         public async Task<string> Insert(data.TbFactura entity)
         {
+            
+            var acom =JsonConvert.DeserializeObject<data.oDirección>(entity.oDireccion.ToString());
+            entity.oDireccion = acom;
+
+
+            //var acom2 = JsonConvert.DeserializeObject<data.TbArticulo[]>(entity.aCompras.ToString());
+            object[] acompras=new object[entity.aCompras.Length];
+            for (int i = 0; i < entity.aCompras.Length; i++)
+            {
+                acompras[i] = JsonConvert.DeserializeObject<data.TbArticulo>(entity.aCompras[i].ToString());
+
+            }
+            entity.aCompras = acompras;
+
             await new DAL.TbFactura().Create(entity);
             return "insertado";
         }
