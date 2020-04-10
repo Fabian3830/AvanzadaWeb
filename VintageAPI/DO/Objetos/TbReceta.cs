@@ -5,12 +5,9 @@ using System.Collections.Generic;
 
 namespace DO.Objetos
 {
-    public class TbReceta
+    public class TbReceta :aCompras
     {
-        [BsonId]
-        [BsonRepresentation(BsonType.ObjectId)]
-#nullable enable
-        public string? _id { get; set; }
+        
 #nullable disable
 
         public string sNombre { get; set; }
@@ -20,16 +17,15 @@ namespace DO.Objetos
         public DateTime dFechaPublicacion { get; set; }
 
         public string sTexto { get; set; }
-
-        public int iPrecio { get; set; }
+ 
 
         public string sUrlVideo { get; set; }
 
-        public string sUrlImagen { get; set; }
+        
 
         public string sUrlVideoTrailer { get; set; }
 
-        public bool bActivo { get; set; }
+       
 
     }
 }

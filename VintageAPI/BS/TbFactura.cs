@@ -40,10 +40,12 @@ namespace BS
             entity.oDireccion = acom;*/
 
 
-            object[] acompras=new object[entity.aCompras.Length];
+            data.aCompras[] acompras=new data.aCompras[entity.aCompras.Length];
+            
             for (int i = 0; i < entity.aCompras.Length; i++)
             {
-                acompras[i] = JsonConvert.DeserializeObject<data.TbArticulo>(entity.aCompras[i].ToString());
+             
+                  acompras[i] = JsonConvert.DeserializeObject<data.aCompras>(entity.aCompras[i].ToString());
 
             }
             entity.aCompras = acompras;
