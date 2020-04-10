@@ -23,7 +23,7 @@ namespace DO.Objetos
 
         public int iTotal { get; set; }
 #nullable enable
-        public object? oDireccion { get; set; }
+        public oDirección? oDireccion { get; set; }
 #nullable disable
 
     }
