@@ -36,7 +36,7 @@ namespace BS
         public async Task<string> Insert(data.TbFactura entity)
         {
             
-            var acom =JsonConvert.DeserializeObject<data.oDirección>(entity.oDireccion.ToString());
+           /* var acom =JsonConvert.DeserializeObject<data.oDirección>(entity.oDireccion.ToString());
             entity.oDireccion = acom;
 
 
@@ -47,7 +47,7 @@ namespace BS
 
             }
             entity.aCompras = acompras;
-
+            */
             await new DAL.TbFactura().Create(entity);
             return "insertado";
         }
