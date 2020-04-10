@@ -22,11 +22,11 @@ namespace DO.Objetos
 
         public DateTime dNacimiento { get; set; }
 #nullable enable
-        public IEnumerable<string>? aRecetas { get; set; }
+        public string[]? aRecetas { get; set; }
 
         public IEnumerable<string>? aFavoritos { get; set; }
 
-        public object? oDireccion { get; set; }
+        public oDirección? oDireccion { get; set; }
 #nullable disable
         public bool bActivo { get; set; }
 

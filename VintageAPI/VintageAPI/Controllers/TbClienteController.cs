@@ -50,5 +50,21 @@ namespace VintageAPI.Controllers
         {
             return new BS.TbCliente().Verify(credential);
         }
+        [HttpGet("/ver/{id}/{idR}")]
+        public async Task<bool> clientever(string id,string idR)
+        {
+            DO.Objetos.TbReceta receta= await new BS.TbReceta().GetOneById(id);
+            if (receta==null) return false;
+            if (receta.iPrecio==0) return true;
+            if (id == "_") return false;
+
+            DO.Objetos.TbCliente cliente =await new BS.TbCliente().GetOneById(id);
+
+            for (int i = 0; i < cliente.aRecetas.Length; i++) if (cliente.aRecetas[i]==idR) return true;
+            
+            
+            return false;
+        }
+
     }
 }

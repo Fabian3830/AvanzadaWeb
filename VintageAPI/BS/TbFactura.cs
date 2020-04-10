@@ -36,9 +36,7 @@ namespace BS
         public async Task<string> Insert(data.TbFactura entity)
         {
             
-            /*var acom =JsonConvert.DeserializeObject<data.oDirección>(entity.oDireccion.ToString());
-            entity.oDireccion = acom;*/
-
+            
 
             data.aCompras[] acompras=new data.aCompras[entity.aCompras.Length];
             
