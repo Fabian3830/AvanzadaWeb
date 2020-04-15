@@ -31,10 +31,15 @@ namespace DAL
             return await _repository.Remove(id);
         }
 
-        public async Task<string> Update(string id, modelo.TbCliente entity)
+     public async Task<string> Update(string id, modelo.TbCliente entity)
         {
             await _repository.Update(id, entity);
             return "";
+        }
+
+        public async Task<IEnumerable<modelo.TbCliente>> customQuery(string query)
+        {
+            return await _repository.customQuery(query);
         }
 
         public async Task<modelo.TbCliente> Verify(modelo.credentials credential)

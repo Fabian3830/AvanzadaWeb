@@ -31,6 +31,7 @@ namespace DAL
             return await _repository.Remove(id);
         }
 
+         public async Task<IEnumerable<modelo.TbReceta>> customQuery(string query){return await _repository.customQuery(query); }
         public async Task<string> Update(string id, modelo.TbReceta entity)
         {
             await _repository.Update(id, entity);

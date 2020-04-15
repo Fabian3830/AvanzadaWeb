@@ -59,6 +59,7 @@ namespace BS
             return await new DAL.TbFactura().Update(id, entity);
         }
 
-
+        public async Task<IEnumerable<DO.Objetos.TbFactura>> customQuery(string query)
+        { var objetos = await new DAL.TbFactura().customQuery(query); return objetos; }
     }
 }

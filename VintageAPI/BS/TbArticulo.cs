@@ -44,6 +44,7 @@ namespace BS
             return await new DAL.TbArticulo().Update(id, entity);
         }
 
-
+        public async Task<IEnumerable<DO.Objetos.TbArticulo>> customQuery(string query)
+        { var objetos = await new DAL.TbArticulo().customQuery(query); return objetos; }
     }
 }

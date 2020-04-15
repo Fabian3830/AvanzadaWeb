@@ -44,5 +44,12 @@ namespace VintageAPI.Controllers
         {
             return new BS.TbFactura().Delete(id);
         }
+
+        [HttpGet("custom/{query}")]
+        public Task<IEnumerable<DO.Objetos.TbFactura>> customQuery(string query)
+        {
+            return new BS.TbFactura().customQuery(query);
+        }
+
     }
 }

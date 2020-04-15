@@ -44,6 +44,7 @@ namespace BS
             return await new DAL.TbReceta().Update(id, entity);
         }
 
-
+        public async Task<IEnumerable<DO.Objetos.TbReceta>> customQuery(string query)
+        { var objetos = await new DAL.TbReceta().customQuery(query); return objetos; }
     }
 }

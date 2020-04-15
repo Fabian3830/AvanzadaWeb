@@ -44,6 +44,8 @@ namespace BS
             return await new DAL.TbHistorial().Update(id, entity);
         }
 
+        public async Task<IEnumerable<DO.Objetos.TbHistorial>> customQuery(string query)
+        { var objetos = await new DAL.TbHistorial().customQuery(query); return objetos; }
 
     }
 }

@@ -44,6 +44,13 @@ namespace BS
             return await new DAL.TbCliente().Update(id, entity);
         }
 
+
+
+
+        public async Task<IEnumerable<DO.Objetos.TbCliente>> customQuery(string query)
+        {var objetos = await new DAL.TbCliente().customQuery(query);return objetos;}
+
+
         public async Task<data.TbCliente> Verify(data.credentials credential)
         {
             data.TbCliente cliente = await new DAL.TbCliente().Verify(credential);

@@ -44,5 +44,14 @@ namespace VintageAPI.Controllers
         {
             return new BS.TbArticulo().Delete(id);
         }
+
+
+        [HttpGet("custom/{query}")]
+        public Task<IEnumerable<DO.Objetos.TbArticulo>> customQuery(string query)
+        {
+            return new BS.TbArticulo().customQuery(query);
+        }
+
+
     }
 }

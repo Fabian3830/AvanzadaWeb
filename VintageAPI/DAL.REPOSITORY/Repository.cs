@@ -5,6 +5,8 @@ using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 using DAL.MODEL;
+using MongoDB.Bson;
+using MongoDB.Bson.Serialization;
 using MongoDB.Driver;
 
 namespace DAL.REPOSITORY
@@ -35,6 +37,15 @@ namespace DAL.REPOSITORY
             var student = Builders<T>.Filter.Eq("_id", id);
             return await _context.Collection(_collection).Find(student).FirstOrDefaultAsync();
         }
+
+
+        public async Task<List<T>> customQuery(string jsonQuery)
+        {
+        
+            return await _context.Collection(_collection).Find(jsonQuery).ToListAsync();            
+        }
+
+
 
         public async Task<DeleteResult> Remove(string id)
         {

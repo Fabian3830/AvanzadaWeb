@@ -66,5 +66,13 @@ namespace VintageAPI.Controllers
             return false;
         }
 
+
+        [HttpGet("custom/{query}")]
+        public Task<IEnumerable<DO.Objetos.TbCliente>> customQuery(string query)
+        {
+            return new BS.TbCliente().customQuery(query);
+        }
+
+
     }
 }

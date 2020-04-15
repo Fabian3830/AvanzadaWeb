@@ -44,5 +44,13 @@ namespace VintageAPI.Controllers
         {
             return new BS.TbHistorial().Delete(id);
         }
+
+
+        [HttpGet("custom/{query}")]
+        public Task<IEnumerable<DO.Objetos.TbHistorial>> customQuery(string query)
+        {
+            return new BS.TbHistorial().customQuery(query);
+        }
+
     }
 }

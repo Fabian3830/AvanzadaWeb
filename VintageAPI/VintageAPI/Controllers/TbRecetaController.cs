@@ -48,11 +48,18 @@ namespace VintageAPI.Controllers
         {
             return new BS.TbReceta().Updated(id, receta);
         }
-
+        
         [HttpDelete("{id}")]
         public Task<string> Delete(string id)
         {
             return new BS.TbReceta().Delete(id);
+        }
+
+
+        [HttpGet("custom/{query}")]
+        public Task<IEnumerable<DO.Objetos.TbReceta>> customQuery(string query)
+        {
+            return new BS.TbReceta().customQuery(query);
         }
     }
 }
