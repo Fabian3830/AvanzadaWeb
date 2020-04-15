@@ -76,9 +76,9 @@ namespace VintageAPI.Controllers
         }
 
         [HttpGet("Recetas/{id}")]
-        public async Task<List<DO.Objetos.TbReceta>> customQuery2(string id)
+        public async Task<IEnumerable<DO.Objetos.TbReceta>> customQuery2(string id)
         {
-            DO.Objetos.TbCliente cliente=  await new BS.TbCliente().GetOneById(id);
+            DO.Objetos.TbCliente cliente=await  new BS.TbCliente().GetOneById(id);
 
             List<DO.Objetos.TbReceta> lista = new List<DO.Objetos.TbReceta>();
             for (int i = 0; i < cliente.aRecetas.Length; i++)
