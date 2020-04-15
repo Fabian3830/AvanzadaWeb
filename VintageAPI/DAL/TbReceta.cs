@@ -12,6 +12,7 @@ namespace DAL
     {
         private Repository<modelo.TbReceta> _repository = new Repository<modelo.TbReceta>("TbReceta");
 
+
         public async Task Create(modelo.TbReceta entity)
         {
             await _repository.Create(entity);
@@ -32,10 +33,16 @@ namespace DAL
         }
 
          public async Task<IEnumerable<modelo.TbReceta>> customQuery(string query){return await _repository.customQuery(query); }
+
         public async Task<string> Update(string id, modelo.TbReceta entity)
         {
             await _repository.Update(id, entity);
             return "";
+        }
+
+
+        public async Task<IEnumerable<modelo.TbReceta>> customQuery2(string query) { 
+            return await _repository.customQuery(query); 
         }
     }
 }

@@ -45,6 +45,8 @@ namespace DAL.REPOSITORY
             return await _context.Collection(_collection).Find(jsonQuery).ToListAsync();            
         }
 
+       
+
 
 
         public async Task<DeleteResult> Remove(string id)

@@ -8,6 +8,9 @@ namespace DO.Objetos
     public class TbReceta :aCompras
     {
         
+
+
+
 #nullable disable
 
         public string sNombre { get; set; }
