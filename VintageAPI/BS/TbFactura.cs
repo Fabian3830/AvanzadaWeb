@@ -42,11 +42,12 @@ namespace BS
             
             for (int i = 0; i < entity.aCompras.Length; i++)
             {
-             
-                  acompras[i] = JsonConvert.DeserializeObject<data.aCompras>(entity.aCompras[i].ToString());
+
+                entity.aCompras[i] = JsonConvert.DeserializeObject<data.aCompras>(entity.aCompras[i].ToString());
+                //acompras[i] =
 
             }
-            entity.aCompras = acompras;
+            //entity.aCompras = acompras;
 
             await new DAL.TbFactura().Create(entity);
             return "insertado";
