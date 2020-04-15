@@ -75,15 +75,16 @@ namespace VintageAPI.Controllers
             return new BS.TbCliente().customQuery(query);
         }
 
-        [HttpGet("Recetas/{id}")]
-        public async Task<IEnumerable<DO.Objetos.TbReceta>> customQuery2(string id)
+        [HttpPost("Recetas")]
+        public async Task<IEnumerable<DO.Objetos.TbReceta>> customQuery2([FromBody] string[] aRecetas)
         {
-            DO.Objetos.TbCliente cliente=await  new BS.TbCliente().GetOneById(id);
 
+
+            //["5e816665aebff121ccae98d4"]
             List<DO.Objetos.TbReceta> lista = new List<DO.Objetos.TbReceta>();
-            for (int i = 0; i < cliente.aRecetas.Length; i++)
+           for (int i = 0; i < aRecetas.Length; i++)
             {
-                lista.Add(await new BS.TbReceta().GetOneById(cliente.aRecetas[i])); 
+                lista.Add(await new BS.TbReceta().GetOneById(aRecetas[i])); 
             }
 
             //5e964afa753c70b13f2037a8
