@@ -75,7 +75,7 @@ namespace VintageAPI.Controllers
             return new BS.TbCliente().customQuery(query);
         }
 
-        [HttpGet("getRecetas/{id}")]
+        [HttpGet("Recetas/{id}")]
         public async Task<DO.Objetos.TbReceta[]> customQuery2(string id)
         {
             DO.Objetos.TbCliente cliente=  await new BS.TbCliente().GetOneById(id);
